@@ -37,4 +37,4 @@ Security weaknesses can be identified using two ways: manual inspection by an ex
 - Upload the document on Assignment 2 @ CANVAS
 - Due: Feb 6, 2026
 
-- Due: Feb 16, 2025
+
