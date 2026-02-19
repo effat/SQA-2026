@@ -30,7 +30,7 @@ In our class lectures we learned the importance on why bugs and security vulnera
 - Upload a zip file at Assignment 3 @ CANVAS conataining
    - Your code implementation, i.e., the updated `analysis.py` file
    - A pdf file describing the flow of execution of `workshop3/calc.py`  
-- Due: Feb 20, 2026
+- Due: Feb 23, 2026
 
 ###  Rubric
 - Description of flow of execution for calc.py [20%]
