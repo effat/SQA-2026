@@ -55,8 +55,8 @@ def getTupAssiDetails(assiTargets, assiValue, element_type = 'TUPLE_ASSIGNMENT' 
             for x_ in range(len(name_var_ls)):
                 name, value = name_var_ls[x_] , value_var_ls[x_] 
                 var_name, var_value = '', '' 
-                if isinstance( value, ast.Num ):
-                    var_value =  value.n 
+                if isinstance( value, ast.Constant):
+                    var_value =  value.value
                 else:
                     var_value =  value.s 
                 if isinstance(name, ast.Name):
