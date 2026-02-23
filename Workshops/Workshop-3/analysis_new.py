@@ -51,17 +51,24 @@ def getTupAssiDetails(assiTargets, assiValue, element_type = 'TUPLE_ASSIGNMENT' 
         value_var_as_tuple_dict =  assiValue.__dict__ 
         
         name_var_ls, value_var_ls = name_var_as_tuple_dict['elts'], value_var_as_tuple_dict['elts']
-        if(len(name_var_ls) == len(value_var_ls) ):
-            for x_ in range(len(name_var_ls)):
-                name, value = name_var_ls[x_] , value_var_ls[x_] 
-                var_name, var_value = '', '' 
-                if isinstance( value, ast.Constant):
-                    var_value =  value.value
-                else:
-                    var_value =  value.s 
+        if len(name_var_ls) == len(value_var_ls):
+            for name, value in zip(name_var_ls, value_var_ls):
+                var_name = ''
+                var_value = ''
+
+                # Handle value
+                if isinstance(value, ast.Constant):      # Python 3.8+
+                    var_value = value.value
+                elif isinstance(value, ast.Num):         # Older Python
+                    var_value = value.n
+                elif isinstance(value, ast.Str):         # Older Python
+                    var_value = value.s
+
+                # Handle variable name
                 if isinstance(name, ast.Name):
-                    var_name = name.id 
-                var_assignment_list.append( (var_name, var_value, element_type) )
+                    var_name = name.id
+
+                var_assignment_list.append((var_name, var_value, element_type))
     return var_assignment_list     
 
 def getCommonAssiDetails(assignDict, elemType):
