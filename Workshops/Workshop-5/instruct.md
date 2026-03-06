@@ -44,7 +44,7 @@ https://huggingface.co/docs/transformers/quantization/bitsandbytes
   - Compare precision and recall between FP16 and 4-bit quantized models in zero shot and few shot settings 
   - Note any differences in runtime and memory usage  
   - Discuss potential trade-offs when using quantized models in regulatory text analysis  
-- Upload the report on Assignment 5 @ CANVAS  
+- Upload the code and report on Assignment 5 @ CANVAS  
 - Due: Mar 16, 2026
 
 
