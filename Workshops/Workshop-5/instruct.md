@@ -29,7 +29,7 @@ Quantization is a technique to reduce the memory footprint of LLMs by using fewe
 ### Post Lab Experience 
 - Quantize the model to 4-bit precision
 - Load the 4-bit model using bitsandbytes quantization
-# Reference: 
+**Reference:**
 https://huggingface.co/docs/transformers/quantization/bitsandbytes
 - Run the model again on the same dataset and record:
   - **Precision (4-bit)**
