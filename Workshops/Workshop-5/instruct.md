@@ -25,14 +25,13 @@ Quantization is a technique to reduce the memory footprint of LLMs by using fewe
 - Run the model on a regulatory text dataset and record:
   - **Precision (FP16)**
   - **Recall (FP16)**  
+
+### Post Lab Experience 
 - Quantize the model to 4-bit precision  
 - Run the model again on the same dataset and record:
   - **Precision (4-bit)**
   - **Recall (4-bit)**  
 - Compare the runtime of FP16 vs 4-bit runs
-
-### Post Lab Experience 
-
 - Summarize your observations in a report:  
   - Compare precision and recall between FP16 and 4-bit quantized models  
   - Note any differences in runtime and memory usage  
