@@ -27,6 +27,8 @@ Quantization is a technique to reduce the memory footprint of LLMs by using fewe
   - **Recall (FP16)**  
 
 ### Post Lab Experience 
+- Modify the prompt for few-shot setting. Review Lecture of Dr. Andrew Ng
+- Re-run the full precision model using few-shot setting and report perfromance: precision and recall.
 - Quantize the model to 4-bit precision
 - Load the 4-bit model using bitsandbytes quantization
   
@@ -35,10 +37,11 @@ https://huggingface.co/docs/transformers/quantization/bitsandbytes
 
 - Run the model again on the same dataset and record:
   - **Precision (4-bit)**
-  - **Recall (4-bit)**  
+  - **Recall (4-bit)**
+-Run the quantized model with few shot setting and report perfromance
 - Compare the runtime of FP16 vs 4-bit runs
 - Summarize your observations in a report:  
-  - Compare precision and recall between FP16 and 4-bit quantized models  
+  - Compare precision and recall between FP16 and 4-bit quantized models in zero shot and few shot settings 
   - Note any differences in runtime and memory usage  
   - Discuss potential trade-offs when using quantized models in regulatory text analysis  
 - Upload the report on Assignment 5 @ CANVAS  
