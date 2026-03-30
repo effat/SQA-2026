@@ -49,11 +49,10 @@ We will use GitHub Actions to implement CI, catching issues early and maintainin
 - Take screen shots of example build
 - Deadline: April 5, 2026
 
-
 ### Rubric
 - Add test cases for B and C , run verification code [15%]
 - Update expected_structure.json and run validation [15%]
 - Examples of build failures [25%]
 - Examples of build successes [25%]
-- Your analysis of build failure and how you solved it to pass in CI
+- Your analysis of build failure and how you solved it to pass in CI [20%]
 
