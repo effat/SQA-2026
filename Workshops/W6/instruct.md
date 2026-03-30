@@ -43,15 +43,15 @@ We will use GitHub Actions to implement CI, catching issues early and maintainin
 
 ### Assignment 6 (Post Lab Experience) 
 - Create a new public repo. Download all codes and use as template code.
-- Comment Run Validation job in .yml file, update `test_cases.json` for B and C, and push
+- Comment Run Validation step in .yml file, update `test_cases.json` for B and C, and push
 -  Take screen shots of example build 
-- Update expected_structure.json, comment out Run Validation job in `.yml` file and push
+- Update `requirements.json`, comment out Run Validation step in `.yml` file and push
 - Take screen shots of example build
 - Deadline: April 5, 2026
 
 ### Rubric
 - Add test cases for B and C , run verification code [15%]
-- Update expected_structure.json and run validation [15%]
+- Update `requirements.json` and Run Validation [15%]
 - Examples of build failures [25%]
 - Examples of build successes [25%]
 - Your analysis of build failure and how you solved it to pass in CI [20%]
