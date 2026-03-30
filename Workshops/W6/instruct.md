@@ -28,6 +28,7 @@ We will use GitHub Actions to implement CI, catching issues early and maintainin
 
 ### In-class Hands-on Experience 
 - Demo will be recorded and shared on CANVAS (Zoom Recordings).
+- Go to [this repo](https://github.com/effat/GitHubActionSQA)
 - File Descriptions
     - `raw_regulations.txt`: Raw input of CFR or user requirements
     -  `requirements.json` : Transformed raw input into user requirements for SDLC. This file will
@@ -38,7 +39,7 @@ We will use GitHub Actions to implement CI, catching issues early and maintainin
     - `scripts\verfification.py` : Verfification script
     - `scripts\validation.py`    : Validation script
     - `.github/workflows/github-actions-SQAdemo.yml` : GitHub Actions workflow file for automating CI.
-        More on GitHub action: GitHub Actions Quickstart](https://docs.github.com/en/actions/get-started/quickstart)
+        More on GitHub action: [GitHub Actions Quickstart](https://docs.github.com/en/actions/get-started/quickstart)
 
 ### Assignment 6 (Post Lab Experience) 
 - Create a new public repo. Download all codes and use as template code.
