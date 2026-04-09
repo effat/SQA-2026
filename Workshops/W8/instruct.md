@@ -12,7 +12,7 @@ Use an LLM to generate diverse graph inputs for testing.
 
 Identify different types of input-related failures, including crashes, infinite loops, and logic errors.
 
-Run an LLm to generate input to fuzz a graph traversal algorithm to record and analyze failures.
+Use an LLM to generate fuzzing inputs for a graph traversal algorithm and analyze the resulting failures.
 
 ## Targeted Courses 
 
