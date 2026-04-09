@@ -47,7 +47,6 @@ Make sure you have the following installed:
 - [Ollama](https://ollama.com/download) (MacOS, Linux, or Windows)
 - Jupyter Notebook or JupyterLab
 
-  ## 1. Install and Start Ollama
 
 ### Step 1: Download and install Ollama
 
