@@ -79,7 +79,7 @@ ollama run model-name
   
 - Classify each generated graph by the type of potential failure types described below.
 
-- ![BFS Failure types](bfs_graph_types.png)
+- ![BFS Failure](bfs_graph_types.png)
 
 
 
