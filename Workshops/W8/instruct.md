@@ -65,17 +65,17 @@ ollama run model-name
 ### In-class Hands-on Experience 
 
 
-> Learn about generating inputs with LLM for BFS 
+- Learn about generating inputs with LLM for BFS 
 
-> Code will be saved and uploaded in this repo. 
+- Code will be saved and uploaded in this repo. 
 
-> Demo will be recorded and uploaded on CANVAS. 
+- Demo will be recorded and uploaded on CANVAS. 
 
 
 ### Post Lab Experience
-> Extend the 1-shot graph generator to create at least 10 crashees/failure.
+- Extend the 1-shot graph generator to create at least 10 crashees/failure.
 
-> Classify each generated graph by the type of potential failure.
+- Classify each generated graph by the type of potential failure.
 
 
 
