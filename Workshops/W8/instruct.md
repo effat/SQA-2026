@@ -73,14 +73,18 @@ ollama run model-name
 
 
 ### Post Lab Experience
-- Extend the 1-shot graph generator to create at least 10 crashees/failure.
+- Extend the 1-shot graph generator to create at least 10 crashees or failures
 
-- Classify each generated graph by the type of potential failure.
+- Among these, at least 5 must represent unique failure types.
+  
+- Classify each generated graph by the type of potential failure types described below.
+
+- ![BFS Failure types](bfs_graph_types.png)
 
 
 
 
 ### Rubric 
 
-- Code : 80%
+- Code and screenshot: 80%
 - Comments: 20% 
