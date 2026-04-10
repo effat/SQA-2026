@@ -75,6 +75,8 @@ ollama run model-name
 - Extend the 1-shot graph generator to create at least 10 crashees or failures
 
 - Among these, at least 5 must represent unique failure types.
+
+- Extend the extraction_prompt method to include all different types of graph inputs.
   
 - Classify each generated graph by the type of potential failure types described below.
 
@@ -86,4 +88,5 @@ ollama run model-name
 ### Rubric 
 
 - Code and screenshot: 80%
-- Comments: 20% 
+- Comments: 20%
+- Deadline: April 19, 2026
